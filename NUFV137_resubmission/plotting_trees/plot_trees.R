@@ -6,7 +6,6 @@
 # by TAS on 2021.08.04
 
 
-#install.packages("phylotate")
 # initialize library ####
 library(ape); library(phylotate)
 
