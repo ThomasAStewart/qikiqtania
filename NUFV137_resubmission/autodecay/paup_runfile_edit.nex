@@ -1,0 +1,162 @@
+#NEXUS
+[paup* phylogenetic analysis for NUFV137, dataset presented in main manuscript. Jan 2022]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=13;
+	TAXLABELS
+		Acanthostega Elginerpeton Elpistostege Eusthenopteron Ichthyostega Panderichthys Parmastega Tiktaalik Ventastega Ymeria Qikiqtania Tinirau Megalichthys 
+	;
+END;
+
+BEGIN CHARACTERS;
+	TITLE  'Matrix in file "dataset_resubmission_main_ms.nex"';
+	DIMENSIONS  NCHAR=125;
+	FORMAT DATATYPE = STANDARD RESPECTCASE GAP = - MISSING = ? SYMBOLS = "  0 1 2 3";
+	CHARSTATELABELS 
+		1 'Anterior tectal/septomaxilla: anterior tectal (external bone, dorsal to nostril): = 0, septomaxilla (external or internal bone, posterior to nostril) = 1, absent = 2',
+		2 'Ectopterygoid/palatine exposure: more or less confined to tooth row = 0, broad mesial exposure additional to tooth row = 1 (AC2) ' /  separate fused,
+		3 'Ectopterygoid reaches subtemporal fossa: no = 0, yes = 1',
+		4 'Frontal: absent = 0, present = 1',
+		5 'Intertemporal: present = 0, absent = 1',
+		6 'Jugal: does not extend anterior to orbit = 0, extends anterior to orbit = 1',
+		7 'Lacrimal: contributes to orbital margin = 0, excluded from margin = 1',
+		8 'Lateral rostral present: yes = 0, no = 1',
+		9 'Maxilla makes interdigitating suture with vomer: no = 0, yes = 1',
+		10 'Maxilla external contact with premaxilla: narrow contact point not interdigitated = 0, interdigitating suture = 1',
+		11 'Maxilla extends behind level of posterior margin of orbit: yes = 0, no = 1',
+		12 'Median rostral: single = 0, paired = 1, absent = 2',
+		13 'Opercular: present = 0, absent = 1',
+		14 'Prefrontal: twice as long as broad, or less = 0, three times as long as broad or more = 1',
+		15 'Prefrontal: transverse anterior suture with tectal = 0, tapers to point anteriorly = 1',
+		16 'Preopercular: present = 0, absent = 1',
+		17 'Pterygoids separate in midline = 0, meet in midline anterior to cultriform process = 1',
+		18 'Pterygoid quadrate ramus margin in subtemporal fossa: concave = 0, with some convex component = 1',
+		19 'Vomers separated by parasphenoid > half length: yes = 0, no = 1',
+		20 'Vomers excluded from margin of interpterygoid vacuity: yes = 0, no = 1',
+		21 'Vomers nearly as broad as long, or broader = 0, about twice as long as broad, or longer = 1',
+		22 'Basipterygoid process: not strongly projecting with concave anterior face = 0, strongly projecting with flat anterior face  = 1',
+		23 'Ethmoid: fully ossified = 0, partly or wholly unossified = 1',
+		24 'Hypophysial region: solid side wall pierced by small foramina for pituitary vein and other vessels = 0, single large foramen = 1',
+		25 'Otic capsule: lateral commissure bearing hyomandibular facets: present = 0, absent = 1',
+		26 'Parasphenoid: does not overlap basioccipital = 0, overlaps basioccipital =1',
+		27 'Parasphenoid: denticulated field: present = 0, absent = 1',
+		28 'Sphenoid: fully ossified, terminating posteriorly in intracranial joint or fused to otoccipital = 0, separated from otoccipital by unossified gap = 1',
+		29 'Ectopterygoid fang pairs: present = 0, absent = 1',
+		30 'Ectopterygoid row (3+) of smaller teeth: present = 0, absent = 1',
+		31 'Ectopterygoid / palatine shagreen field: absent = 0, present = 1',
+		32 'Maxilla tooth number: > 40 = 0, 30-40 = 1, < 30 = 2',
+		33 'Palatine row of smaller teeth: present = 0, absent = 1',
+		34 'Pterygoid shagreen: dense = 0, a few discontinuous patches or absent = 1',
+		35 'Premaxillary tooth proportions: all approximately same size = 0, posteriormost teeth at least twice height of anteriormost teeth = 1',
+		36 'Vomerine fang pairs: present = 0, absent = 1',
+		37 'Vomerine fang pairs noticeably smaller than other palatal fang pairs: no = 0, yes = 1',
+		38 'Vomer anterior wall forming posterior margin of palatal fossa bears tooth row meeting in midline: yes = 0, no = 1',
+		39 'Vomerine row of small teeth : present = 0, absent = 1',
+		40 'Vomerine shagreen field: absent = 0, present = 1',
+		41 'Adductor fossa faces dorsally = 0, mesially = 1',
+		42 'Adductor crest: absent = 0, peak anterior to adductor fossa, dorsal margin of fossa concave = 1, peak above anterior part of adductor fossa, dorsal margin of fossa convex = 2',
+		43 'Angular ? prearticular contact: prearticular contacts angular edge to edge = 0, absent = 1, mesial lamina of angular sutures with prearticular = 2',
+		44 'Coronoid (anterior) contacts splenial: no = 0, yes = 1',
+		45 'Coronoid (posterior) posterodorsal process: no = 0, yes = 1',
+		46 'Coronoid (posterior) posterodorsal process visible in lateral view: no = 0, yes = 1',
+		47 'Dentary external to angular + surangular, with chamfered ventral edge and no interdigitations: no = 0, yes = 1',
+		48 'Dentary ventral edge: smooth continuous line = 0, abruptly tapering or ?stepped? margin = 1',
+		49 'Mandibular sensory canal: present = 0, absent = 1',
+		50 'Mandibular canal exposure: entirely enclosed, opens through lines of pores = 0, mostly enclosed, short sections of open grooves = 1, mostly open grooves, short sections opening through pores = 2, entirely open = 3',
+		51 'Mandible: oral sulcus/surangular pit line: present = 0, absent = 1',
+		52 'Meckelian bone floors precoronoid fossa: yes = 0, no = 1',
+		53 'Meckelian bone ossified in middle part of jaw: yes = 0, little or no ossification = 1',
+		54 'Meckelian foramina/ fenestrae, dorsal margins formed by; Meckelian bone = 0, prearticular = 1, infradentary = 2',
+		55 'Meckelian foramina/ fenestrae, height: much lower than adjacent prearticular = 0, equal to or greater than depth of adjacent prearticular = 1',
+		56 'Adsymphysial lateral foramen present: no = 0, yes = 1 (Following Ahlberg and Clack 2020:  the character list follows a terminology change from "parasymphysial" to "adsymphysial" for the small dermal bone that lies anterior to the coronoid series, and the foramina that are associated with its posterior end.)',
+		57 'Adsymphysial mesial foramen present: no = 0, yes = 1',
+		58 'Postsplenial with mesial lamina: no = 0, yes = 1',
+		59 'Postsplenial pit line present: yes = 0, no = 1',
+		60 'Postsplenial suture with prearticular present: no = 0, yes but interrupted by Meckelian foramina or fenestrae = 1, uninterrupted suture = 2',
+		61 'Prearticular sutures with surangular: no = 0, yes = 1',
+		62 'Prearticular sutures with mesial lamina of splenial: no, mesial lamina of splenial absent = 0, yes = 1, no, mesial lamina of splenial separated from prearticular by postsplenial = 2',
+		63 'Prearticular with longitudinal ridge below coronoids: no = 0, yes = 1',
+		64 'Prearticular with mesially projecting flange on dorsal edge along posterior border of adductor fossa: no = 0, yes = 1',
+		65 'Prearticular centre of radiation of striations: level with posterior end of posterior coronoid = 0, level with middle of adductor fossa = 1, level with posterior end of adductor fossa = 2',
+		66 'Splenial has free ventral flange: yes = 0, no = 1',
+		67 'Splenial, rearmost extension of mesial lamina: closer to anterior end of jaw than to adductor fossa = 0, equidistant = 1, closer to anterior margin of adductor fossa than to the anterior end of the jaw = 2',
+		68 'Coronoids: at least one has fang pair recognisable because at least twice the height of coronoid teeth: yes = 0, no = 1',
+		69 'Coronoids: at least one has fangs recognisable because noticeably mesial to vertical lamina of bone and to all other teeth: yes = 0, no = 1',
+		70 'Coronoids: at least one has organised tooth row: yes = 0, no =1',
+		71 'Coronoids: at least one carries shagreen: no = 0, yes = 1',
+		72 'Coronoids: size of teeth (excluding fangs) on anterior and middle coronoids relative to dentary tooth size: about the same = 0, half height or less = 1',
+		73 'Dentary teeth: larger than maxillary teeth = 0, same size as maxillary teeth = 1, smaller than maxillary teeth = 2',
+		74 'Dentary with a row of very small teeth or denticles lateral to tooth row: yes = 0, no = 1',
+		75 'Adsymphysial tooth plate: present = 0, absent = 1',
+		76 'Adsymphysial plate dentition: shagreen or irregular tooth field = 0, organised dentition aligned parallel to jaw margin = 1, no dentition = 2',
+		77 'Adsymphsial plate has fang pair: no = 0, yes = 1',
+		78 'Adsymphysial plate has tooth row: no = 0, short tooth row, separated from coronoid tooth row by diastema  = 1, long tooth row reaching coronoid = 2',
+		79 'Prearticular shagreen field, distribution: gradually decreasing from dorsal to ventral = 0, well defined dorsal longitudinal band = 1, scattered patches or absent = 2',
+		80 'Anterior palatal fenestra: single = 0, double = 1, absent = 2',
+		81 'Dorsal fontanelle on snout: absent = 0, present = 1',
+		82 'Interpterygoid vacuities: absent = 0, at least 2 x longer than wide = 1, < 2 x longer than wide = 2',
+		83 'Intracranial joint: present in dermal skull roof = 0, absent = 1',
+		84 'Nature of dermal ornament: tuberculate = 0, fairly regular pit and ridge = 1, irregular = 2, absent or almost absent = 3',
+		85 'Nature of ornament: ?starbursts? of radiating ornament on at least some bones: no = 0, yes = 1',
+		86 'Keyhole-shaped orbits: absent = 0, present = 1',
+		87 'Anocleithrum: oblong with distinct anterior overlap area = 0, drop-shaped with no anterior overlap area = 1, absent = 2',
+		88 'Cleithrum: ornamented = 0, not ornamented = 1',
+		89 'Cleithrum, postbranchial lamina: present = 0, absent = 1',
+		90 'Digits: absent = 0, present = 1',
+		91 'Humerus: narrow tapering entepicondyle = 0, square or parallelogram-shaped entepicondyle = 1',
+		92 'Pectoral process of humerus: absent = 0, present = 1',
+		93 'Proximal limb of oblique ridge of humerus: present, separated from anterior margin of humerus by prepectoral space = 0, absent, replaced by deltopectoral crest = 1',
+		94 'Latissimus dorsi attachment of humerus: diffuse ridged area = 0, distinct process = 1',
+		95 ' Foramina piercing oblique ventral ridge of humerus: many = 0, one moderately large foramen in addition to entepicondylar foramen = 1, entepicondylar foramen is the only large opening, other foramina are tiny pinpricks or absent = 2',
+		96 'Ilium, iliac canal: absent = 0, present = 1',
+		97 'Ilium, posterior process: oriented posterodorsally = 0, oriented approximately horizontally posteriorly = 1',
+		98 'Interclavicle: small and concealed or absent = 0, large and exposed = 1',
+		99 'Interclavicle shape: ovoid = 0, kite-shaped = 1, with posterior stalk = 2',
+		100 'Lepidotrichia in paired appendages: present = 0, absent = 1',
+		101 'Posttemporal + supracleithrum: present = 0, absent = 1',
+		102 'Radius and ulna: radius much longer than ulna = 0, approximately equal length = 1',
+		103 'Ribs, trunk: no longer than diameter of intercentrum = 0, longer = 1',
+		104 'Ribs, trunk: all straight = 0, at least some curving ventrally = 1',
+		105 'Ribs, trunk: all cylindrical = 0, some or all bear flanges from posterior margin which narrow distally = 1, some or all flare distally = 2',
+		106 'Scapular blade: absent = 0, small with narrow top = 1, large with broad top = 2',
+		107 'Scapulocoracoid: small and tripodal = 0, large plate pierced by large coracoid foramen = 1, very large plate without large coracoid foramen = 2',
+		108 'Subscapular fossa: broad and shallow = 0, deeply impressed posteriorly = 1',
+		109 'Squamation: complete body covering of scales, all similar = 0, ventral armour of gastralia = 1',
+		110 'Proportion of skull roof lying anterior to middle of orbits: <50%  = 0, >=50% = 1',
+		111 'Postaxial process on ulnare: present = 0, absent = 1',
+		112 'Radius length: longer than humerus = 0, equal to or shorter than humerus = 1',
+		113 'Sacrum: absent = 0, present = 1',
+		114 'Scales: round = 0, rhombic = 1',
+		115 'Long basal segments of lepidotrichia in pectoral fin: absent = 0, present = 1',
+		116 'Basal scutes on fins: absent = 0, present = 1',
+		117 'Tooth construction: simple or generalized polyplocodont = 0, labyrinthodont = 1',
+		118 'Gular: present = 0, absent = 1',
+		119 'Olecranon process on ulna: absent = 0, present = 1',
+		120 'Number radials articulating on ulnare 0-2 radials = 0, greater than 2 radials = 1',
+		121 'Tabular horn: absent = 0, present = 1',
+		122 'Dorsal fins: two = 0, fewer than two = 1',
+		123 'Anal fin: present = 0, absent = 1',
+		124 'Asymmetry in pectoral fin hemitrichia: cross sectional area (CSA) of hemitricha differ by less than 2-fold = 0, CSA is 2-fold or greater = 1 ',
+		125 'Relative girdle size: pectoral girdle significantly taller than pelvic girdle in lateral aspect = 0, girdles are approximately the same hight = 1'; 
+		
+	MATRIX
+	Acanthostega    0011111100011110101-0111100010000010000000110?1001111100101001100001100101011111101110110111112001111010202011111--0110?111-1
+	Elginerpeton    ???????????0????????????????????0?0???????1???00000100011000011???110000?001111????11??11??????11????????0?1????1????????????
+	Elpistostege    0??11100?001011?0?1?0?????0?0?????1???????????0?00??0?????0??0???0?0?????10?????0?100001??0??????11010{0 1}?1????110?010?001110??
+	Eusthenopteron  0000000000000000000-?000000000000000000000100?000000000000000000?0000000000000000000000000000100?0000000000?00000101000000000
+	Ichthyostega    0111111?10001110101-011?1000{0 1}0020110010000010?1000010000101001000001100121011120001110?101110011112111111021?1?111-0111?011-1
+	Panderichthys   00110{0 1}0000000000000-0000000000000010000000000?000000000000000000?00000000000000000100000000000???000001?101?0011001010000????
+	Parmastega      0111111100011010000?0?0?1???00010110000000010?1001011?0?100001100000000{0 1}21011210001110001????????12?????????????????????1????
+	Tiktaalik       01110110000?11?0000-0110000000000000000000{0 1}00?000000{0 1}00000000110-0000000100000{0 1}000100000000000000000?011101001110010100101111
+	Ventastega      00?1?1110001?110101-?01010000?0000100?0000010?1001010001100001100000100101010210101110111??????0011?1????020?1???????1??0????
+	Ymeria          ??1??????00??????0??0???????00?20?100?0?000?0?10021?000??010??0?00?0100001011110?0?31????????????????????????????????????????
+	Qikiqtania      01??????00??????????0???????000?00000000???0??000{1 2}?0100??000?11?-0000000100???0????00????0?0??2????0?0????????10?01?1000???1?
+	Tinirau         -0100?0-00??000000???000000?001??0?00000?0100-?0000??????0?00??0???0??0010????00000000?000?????0-?????000???000?010?00?00?0?0
+	Megalichthys    1?00000000?00??00???1000000?001??0?0?000?0100-?0???????000?00??0???0??0010000??000030?00?0?????0?0???????0??000000010000000??
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1- 125;
+END;

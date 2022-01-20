@@ -1,0 +1,54 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Jan 18 22:54:07 2022]
+[!
+>Data file = paup_runfile.nex
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 500
+>  Starting seed = generated automatically
+>  Number of characters resampled in each replicate = 125
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 125 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        33 characters are constant (proportion = 0.264)
+>        14 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 78
+>    Gaps are treated as "missing"
+>    Multistate taxa interpreted as uncertainty
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 100
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>    No more than 1000 trees of score (length) greater than or equal to 1 will be saved in each
+>       replicate
+>  Initial 'Maxtrees' setting = 1000000
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>  500 bootstrap replicates completed
+>  Time used = 45.30 sec (CPU time = 44.90 sec)
+]
+	Translate
+		1 Acanthostega,
+		2 Elginerpeton,
+		3 Elpistostege,
+		4 Eusthenopteron,
+		5 Ichthyostega,
+		6 Panderichthys,
+		7 Parmastega,
+		8 Tiktaalik,
+		9 Ventastega,
+		10 Ymeria,
+		11 Qikiqtania,
+		12 Tinirau,
+		13 Megalichthys
+		;
+tree 'PAUP_1' = [&U] (1,((2,(5,10)42.844)23.055,((3,((((4,(12,13)36.261)99.014,6)88.566,8)31.135,11)50.767)75.439,7)28.251)40.583,9)100;
+End;

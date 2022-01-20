@@ -1,0 +1,233 @@
+paup> describetrees 1/apolist=yes
+
+Tree description:
+
+  Unrooted tree(s) rooted using outgroup method
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 125 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        33 characters are constant (proportion = 0.264)
+        14 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 78
+    Gaps are treated as "missing"
+    Multistate taxa interpreted as uncertainty
+    Character-state optimization: Accelerated transformation (ACCTRAN)
+
+Tree 1 ("Strict") (rooted using user-specified outgroup)
+
+Tree length = 174
+Consistency index (CI) = 0.5862
+Homoplasy index (HI) = 0.4138
+CI excluding uninformative characters = 0.5500
+HI excluding uninformative characters = 0.4500
+Retention index (RI) = 0.5814
+Rescaled consistency index (RC) = 0.3408
+
+                                                                                     /--------------------- Acanthostega
+                                                                                     |
+                                                                                     +--------------------- Elginerpeton
+                                                                                     |
+                                                                                     +--------------------- Ichthyostega
+                                                                /-------------------17
+                                                                |                    +--------------------- Parmastega
+                                                                |                    |
+                                                                |                    +--------------------- Ventastega
+                                                                |                    |
+                                                                |                    \--------------------- Ymeria
+                                          /--------------------16
+                                          |                     +------------------------------------------ Elpistostege
+                                          |                     |
+                     /-------------------15                     +------------------------------------------ Tiktaalik
+                     |                    |                     |
+                     |                    |                     \------------------------------------------ Qikiqtania
+                     |                    |
+/-------------------14                    \---------------------------------------------------------------- Panderichthys
+|                    |
+|                    +------------------------------------------------------------------------------------- Eusthenopteron
+|                    |
+|                    \------------------------------------------------------------------------------------- Tinirau
+|
+\---------------------------------------------------------------------------------------------------------- Megalichthys
+
+Apomorphy lists:
+
+      Branch               Character                                                                Steps      CI   Change
+--------------------------------------------------------------------------------------------------------------------------
+node_14 <-> Megalichthys   1 (Anterior tectal/septomaxilla: anterior tectal (external bone, dorsa)      1   1.000  0 <=> 1
+                           3 (Ectopterygoid reaches subtemporal fossa: no = 0, yes = 1)                 1   0.500  1 <-> 0
+                           21 (Vomers nearly as broad as long, or broader = 0, about twice as lon)      1   1.000  0 <-> 1
+                           31 (Ectopterygoid / palatine shagreen field: absent = 0, present = 1)        1   0.500  0 <-> 1
+                           84 (Nature of dermal ornament: tuberculate = 0, fairly regular pit and)      1   0.667  0 <=> 3
+                           114 (Scales: round = 0, rhombic = 1)                                         1   0.333  1 <-> 0
+node_14 --> node_15        4 (Frontal: absent = 0, present = 1)                                         1   1.000  0 ==> 1
+                           6 (Jugal: does not extend anterior to orbit = 0, extends anterior to o)      1   1.000  0 --> 1
+                           35 (Premaxillary tooth proportions: all approximately same size = 0, p)      1   0.250  0 --> 1
+                           43 (Angular ? prearticular contact: prearticular contacts angular edge)      1   0.333  1 ==> 0
+                           83 (Intracranial joint: present in dermal skull roof = 0, absent = 1)        1   1.000  0 ==> 1
+                           95 ( Foramina piercing oblique ventral ridge of humerus: many = 0, one)      1   0.667  0 --> 2
+                           103 (Ribs, trunk: no longer than diameter of intercentrum = 0, longer )      1   1.000  0 ==> 1
+                           104 (Ribs, trunk: all straight = 0, at least some curving ventrally = )      1   0.500  0 --> 1
+                           105 (Ribs, trunk: all cylindrical = 0, some or all bear flanges from p)      1   1.000  0 ==> 1
+                           107 (Scapulocoracoid: small and tripodal = 0, large plate pierced by l)      1   1.000  0 --> 1
+                           111 (Postaxial process on ulnare: present = 0, absent = 1)                   1   1.000  0 ==> 1
+                           112 (Radius length: longer than humerus = 0, equal to or shorter than )      1   0.333  0 --> 1
+                           114 (Scales: round = 0, rhombic = 1)                                         1   0.333  1 --> 0
+                           115 (Long basal segments of lepidotrichia in pectoral fin: absent = 0,)      1   1.000  0 ==> 1
+                           116 (Basal scutes on fins: absent = 0, present = 1)                          1   1.000  1 ==> 0
+                           117 (Tooth construction: simple or generalized polyplocodont = 0, laby)      1   1.000  0 ==> 1
+                           122 (Dorsal fins: two = 0, fewer than two = 1)                               1   1.000  0 --> 1
+                           123 (Anal fin: present = 0, absent = 1)                                      1   0.500  0 --> 1
+                           124 (Asymmetry in pectoral fin hemitrichia: cross sectional area (CSA))      1   1.000  0 --> 1
+                           125 (Relative girdle size: pectoral girdle significantly taller than p)      1   1.000  0 --> 1
+node_15 --> node_16        2 (Ectopterygoid/palatine exposure: more or less confined to tooth row)      1   0.333  0 ==> 1
+                           5 (Intertemporal: present = 0, absent = 1)                                   1   0.500  0 --> 1
+                           7 (Lacrimal: contributes to orbital margin = 0, excluded from margin =)      1   0.500  0 --> 1
+                           12 (Median rostral: single = 0, paired = 1, absent = 2)                      1   0.333  0 ==> 1
+                           13 (Opercular: present = 0, absent = 1)                                      1   0.500  0 --> 1
+                           14 (Prefrontal: twice as long as broad, or less = 0, three times as lo)      1   0.500  0 ==> 1
+                           15 (Prefrontal: transverse anterior suture with tectal = 0, tapers to )      1   1.000  0 ==> 1
+                           19 (Vomers separated by parasphenoid > half length: yes = 0, no = 1)         1   0.333  0 --> 1
+                           22 (Basipterygoid process: not strongly projecting with concave anteri)      1   0.500  0 ==> 1
+                           23 (Ethmoid: fully ossified = 0, partly or wholly unossified = 1)            1   0.500  0 ==> 1
+                           62 (Prearticular sutures with mesial lamina of splenial: no, mesial la)      1   0.500  0 ==> 1
+                           63 (Prearticular with longitudinal ridge below coronoids: no = 0, yes )      1   0.333  0 ==> 1
+                           88 (Cleithrum: ornamented = 0, not ornamented = 1)                           1   0.333  0 --> 1
+                           98 (Interclavicle: small and concealed or absent = 0, large and expose)      1   0.500  0 --> 1
+                           99 (Interclavicle shape: ovoid = 0, kite-shaped = 1, with posterior st)      1   0.500  0 --> 1
+                           101 (Posttemporal + supracleithrum: present = 0, absent = 1)                 1   1.000  0 ==> 1
+                           110 (Proportion of skull roof lying anterior to middle of orbits: <50%)      1   1.000  0 ==> 1
+                           120 (Number radials articulating on ulnare 0-2 radials = 0, greater th)      1   0.500  0 --> 1
+node_16 --> node_17        8 (Lateral rostral present: yes = 0, no = 1)                                 1   1.000  0 ==> 1
+                           17 (Pterygoids separate in midline = 0, meet in midline anterior to cu)      1   0.500  0 ==> 1
+                           25 (Otic capsule: lateral commissure bearing hyomandibular facets: pre)      1   1.000  0 ==> 1
+                           44 (Coronoid (anterior) contacts splenial: no = 0, yes = 1)                  1   1.000  0 ==> 1
+                           47 (Dentary external to angular + surangular, with chamfered ventral e)      1   0.500  0 ==> 1
+                           50 (Mandibular canal exposure: entirely enclosed, opens through lines )      1   0.400  0 --> 1
+                           52 (Meckelian bone floors precoronoid fossa: yes = 0, no = 1)                1   1.000  0 ==> 1
+                           57 (Adsymphysial mesial foramen present: no = 0, yes = 1)                    1   1.000  0 ==> 1
+                           69 (Coronoids: at least one has fangs recognisable because noticeably )      1   0.333  0 ==> 1
+                           72 (Coronoids: size of teeth (excluding fangs) on anterior and middle )      1   0.333  0 --> 1
+                           73 (Dentary teeth: larger than maxillary teeth = 0, same size as maxil)      1   0.400  1 ==> 0
+                           74 (Dentary with a row of very small teeth or denticles lateral to too)      1   0.333  0 ==> 1
+                           76 (Adsymphysial plate dentition: shagreen or irregular tooth field = )      1   1.000  0 ==> 1
+                           77 (Adsymphsial plate has fang pair: no = 0, yes = 1)                        1   0.500  0 ==> 1
+                           78 (Adsymphysial plate has tooth row: no = 0, short tooth row, separat)      1   0.667  0 ==> 1
+                           79 (Prearticular shagreen field, distribution: gradually decreasing fr)      1   1.000  0 ==> 1
+                           84 (Nature of dermal ornament: tuberculate = 0, fairly regular pit and)      1   0.667  0 ==> 1
+                           85 (Nature of ornament: ?starbursts? of radiating ornament on at least)      1   1.000  0 ==> 1
+                           87 (Anocleithrum: oblong with distinct anterior overlap area = 0, drop)      1   0.500  0 --> 1
+                           89 (Cleithrum, postbranchial lamina: present = 0, absent = 1)                1   0.333  0 --> 1
+                           90 (Digits: absent = 0, present = 1)                                         1   1.000  0 ==> 1
+                           91 (Humerus: narrow tapering entepicondyle = 0, square or parallelogra)      1   1.000  0 ==> 1
+                           92 (Pectoral process of humerus: absent = 0, present = 1)                    1   1.000  0 ==> 1
+                           100 (Lepidotrichia in paired appendages: present = 0, absent = 1)            1   1.000  0 ==> 1
+                           107 (Scapulocoracoid: small and tripodal = 0, large plate pierced by l)      1   1.000  1 ==> 2
+                           109 (Squamation: complete body covering of scales, all similar = 0, ve)      1   1.000  0 --> 1
+                           113 (Sacrum: absent = 0, present = 1)                                        1   1.000  0 ==> 1
+                           114 (Scales: round = 0, rhombic = 1)                                         1   0.333  0 --> 1
+                           118 (Gular: present = 0, absent = 1)                                         1   1.000  0 ==> 1
+node_17 --> Acanthostega   2 (Ectopterygoid/palatine exposure: more or less confined to tooth row)      1   0.333  1 ==> 0
+                           24 (Hypophysial region: solid side wall pierced by small foramina for )      1   1.000  0 ==> 1
+                           29 (Ectopterygoid fang pairs: present = 0, absent = 1)                       1   1.000  0 ==> 1
+                           43 (Angular ? prearticular contact: prearticular contacts angular edge)      1   0.333  0 ==> 1
+                           51 (Mandible: oral sulcus/surangular pit line: present = 0, absent = 1)      1   0.500  0 ==> 1
+                           53 (Meckelian bone ossified in middle part of jaw: yes = 0, little or )      1   0.333  0 ==> 1
+                           54 (Meckelian foramina/ fenestrae, dorsal margins formed by; Meckelian)      1   1.000  0 ==> 1
+                           59 (Postsplenial pit line present: yes = 0, no = 1)                          1   0.333  0 ==> 1
+                           68 (Coronoids: at least one has fang pair recognisable because at leas)      1   0.333  0 ==> 1
+                           80 (Anterior palatal fenestra: single = 0, double = 1, absent = 2)           1   1.000  0 ==> 1
+                           81 (Dorsal fontanelle on snout: absent = 0, present = 1)                     1   0.500  0 ==> 1
+                           89 (Cleithrum, postbranchial lamina: present = 0, absent = 1)                1   0.333  1 --> 0
+                           93 (Proximal limb of oblique ridge of humerus: present, separated from)      1   1.000  0 ==> 1
+                           94 (Latissimus dorsi attachment of humerus: diffuse ridged area = 0, d)      1   0.500  0 ==> 1
+                           104 (Ribs, trunk: all straight = 0, at least some curving ventrally = )      1   0.500  1 --> 0
+                           105 (Ribs, trunk: all cylindrical = 0, some or all bear flanges from p)      1   1.000  1 ==> 2
+                           121 (Tabular horn: absent = 0, present = 1)                                  1   0.333  0 ==> 1
+node_17 --> Elginerpeton   12 (Median rostral: single = 0, paired = 1, absent = 2)                      1   0.333  1 ==> 0
+                           35 (Premaxillary tooth proportions: all approximately same size = 0, p)      1   0.250  1 ==> 0
+                           43 (Angular ? prearticular contact: prearticular contacts angular edge)      1   0.333  0 ==> 1
+                           47 (Dentary external to angular + surangular, with chamfered ventral e)      1   0.500  1 ==> 0
+                           50 (Mandibular canal exposure: entirely enclosed, opens through lines )      1   0.400  1 --> 0
+                           56 (Adsymphysial lateral foramen present: no = 0, yes = 1 (Following A)      1   0.500  0 ==> 1
+                           67 (Splenial, rearmost extension of mesial lamina: closer to anterior )      1   1.000  0 ==> 1
+                           68 (Coronoids: at least one has fang pair recognisable because at leas)      1   0.333  0 ==> 1
+                           69 (Coronoids: at least one has fangs recognisable because noticeably )      1   0.333  1 ==> 0
+                           72 (Coronoids: size of teeth (excluding fangs) on anterior and middle )      1   0.333  1 --> 0
+                           74 (Dentary with a row of very small teeth or denticles lateral to too)      1   0.333  1 ==> 0
+                           96 (Ilium, iliac canal: absent = 0, present = 1)                             1   0.500  0 ==> 1
+                           97 (Ilium, posterior process: oriented posterodorsally = 0, oriented a)      1   0.500  0 ==> 1
+                           108 (Subscapular fossa: broad and shallow = 0, deeply impressed poster)      1   0.500  0 ==> 1
+node_17 --> Ichthyostega   9 (Maxilla makes interdigitating suture with vomer: no = 0, yes = 1)         1   1.000  0 ==> 1
+                           12 (Median rostral: single = 0, paired = 1, absent = 2)                      1   0.333  1 ==> 0
+                           32 (Maxilla tooth number: > 40 = 0, 30-40 = 1, < 30 = 2)                     1   0.667  0 ==> 2
+                           34 (Pterygoid shagreen: dense = 0, a few discontinuous patches or abse)      1   0.500  0 ==> 1
+                           38 (Vomer anterior wall forming posterior margin of palatal fossa bear)      1   1.000  0 ==> 1
+                           50 (Mandibular canal exposure: entirely enclosed, opens through lines )      1   0.400  1 --> 0
+                           59 (Postsplenial pit line present: yes = 0, no = 1)                          1   0.333  0 ==> 1
+                           63 (Prearticular with longitudinal ridge below coronoids: no = 0, yes )      1   0.333  1 ==> 0
+                           68 (Coronoids: at least one has fang pair recognisable because at leas)      1   0.333  0 ==> 1
+                           73 (Dentary teeth: larger than maxillary teeth = 0, same size as maxil)      1   0.400  0 ==> 2
+                           79 (Prearticular shagreen field, distribution: gradually decreasing fr)      1   1.000  1 ==> 2
+                           89 (Cleithrum, postbranchial lamina: present = 0, absent = 1)                1   0.333  1 --> 0
+                           95 ( Foramina piercing oblique ventral ridge of humerus: many = 0, one)      1   0.667  2 --> 1
+                           96 (Ilium, iliac canal: absent = 0, present = 1)                             1   0.500  0 ==> 1
+                           97 (Ilium, posterior process: oriented posterodorsally = 0, oriented a)      1   0.500  0 ==> 1
+                           99 (Interclavicle shape: ovoid = 0, kite-shaped = 1, with posterior st)      1   0.500  1 --> 2
+                           102 (Radius and ulna: radius much longer than ulna = 0, approximately )      1   1.000  0 ==> 1
+                           108 (Subscapular fossa: broad and shallow = 0, deeply impressed poster)      1   0.500  0 ==> 1
+                           119 (Olecranon process on ulna: absent = 0, present = 1)                     1   1.000  0 ==> 1
+node_17 --> Parmastega     14 (Prefrontal: twice as long as broad, or less = 0, three times as lo)      1   0.500  1 ==> 0
+                           17 (Pterygoids separate in midline = 0, meet in midline anterior to cu)      1   0.500  1 ==> 0
+                           19 (Vomers separated by parasphenoid > half length: yes = 0, no = 1)         1   0.333  1 ==> 0
+                           23 (Ethmoid: fully ossified = 0, partly or wholly unossified = 1)            1   0.500  1 ==> 0
+                           32 (Maxilla tooth number: > 40 = 0, 30-40 = 1, < 30 = 2)                     1   0.667  0 ==> 1
+                           34 (Pterygoid shagreen: dense = 0, a few discontinuous patches or abse)      1   0.500  0 ==> 1
+                           53 (Meckelian bone ossified in middle part of jaw: yes = 0, little or )      1   0.333  0 ==> 1
+                           69 (Coronoids: at least one has fangs recognisable because noticeably )      1   0.333  1 ==> 0
+                           73 (Dentary teeth: larger than maxillary teeth = 0, same size as maxil)      1   0.400  0 ==> 2
+                           78 (Adsymphysial plate has tooth row: no = 0, short tooth row, separat)      1   0.667  1 ==> 2
+                           87 (Anocleithrum: oblong with distinct anterior overlap area = 0, drop)      1   0.500  1 --> 0
+                           88 (Cleithrum: ornamented = 0, not ornamented = 1)                           1   0.333  1 ==> 0
+                           99 (Interclavicle shape: ovoid = 0, kite-shaped = 1, with posterior st)      1   0.500  1 --> 2
+                           121 (Tabular horn: absent = 0, present = 1)                                  1   0.333  0 ==> 1
+node_17 --> Ventastega     2 (Ectopterygoid/palatine exposure: more or less confined to tooth row)      1   0.333  1 ==> 0
+                           22 (Basipterygoid process: not strongly projecting with concave anteri)      1   0.500  1 ==> 0
+                           56 (Adsymphysial lateral foramen present: no = 0, yes = 1 (Following A)      1   0.500  0 ==> 1
+                           77 (Adsymphsial plate has fang pair: no = 0, yes = 1)                        1   0.500  1 ==> 0
+                           78 (Adsymphysial plate has tooth row: no = 0, short tooth row, separat)      1   0.667  1 ==> 2
+                           81 (Dorsal fontanelle on snout: absent = 0, present = 1)                     1   0.500  0 ==> 1
+node_17 --> Ymeria         32 (Maxilla tooth number: > 40 = 0, 30-40 = 1, < 30 = 2)                     1   0.667  0 ==> 2
+                           50 (Mandibular canal exposure: entirely enclosed, opens through lines )      1   0.400  1 ==> 2
+                           51 (Mandible: oral sulcus/surangular pit line: present = 0, absent = 1)      1   0.500  0 ==> 1
+                           59 (Postsplenial pit line present: yes = 0, no = 1)                          1   0.333  0 ==> 1
+                           63 (Prearticular with longitudinal ridge below coronoids: no = 0, yes )      1   0.333  1 ==> 0
+                           72 (Coronoids: size of teeth (excluding fangs) on anterior and middle )      1   0.333  1 --> 0
+                           84 (Nature of dermal ornament: tuberculate = 0, fairly regular pit and)      1   0.667  1 ==> 3
+node_16 --> Elpistostege   7 (Lacrimal: contributes to orbital margin = 0, excluded from margin =)      1   0.500  1 --> 0
+                           13 (Opercular: present = 0, absent = 1)                                      1   0.500  1 --> 0
+                           62 (Prearticular sutures with mesial lamina of splenial: no, mesial la)      1   0.500  1 ==> 0
+                           74 (Dentary with a row of very small teeth or denticles lateral to too)      1   0.333  0 ==> 1
+                           112 (Radius length: longer than humerus = 0, equal to or shorter than )      1   0.333  1 --> 0
+                           121 (Tabular horn: absent = 0, present = 1)                                  1   0.333  0 ==> 1
+                           123 (Anal fin: present = 0, absent = 1)                                      1   0.500  1 --> 0
+node_16 --> Tiktaalik      5 (Intertemporal: present = 0, absent = 1)                                   1   0.500  1 --> 0
+                           19 (Vomers separated by parasphenoid > half length: yes = 0, no = 1)         1   0.333  1 --> 0
+                           35 (Premaxillary tooth proportions: all approximately same size = 0, p)      1   0.250  1 --> 0
+                           88 (Cleithrum: ornamented = 0, not ornamented = 1)                           1   0.333  1 --> 0
+                           95 ( Foramina piercing oblique ventral ridge of humerus: many = 0, one)      1   0.667  2 --> 0
+                           98 (Interclavicle: small and concealed or absent = 0, large and expose)      1   0.500  1 --> 0
+                           99 (Interclavicle shape: ovoid = 0, kite-shaped = 1, with posterior st)      1   0.500  1 --> 0
+node_16 --> Qikiqtania     35 (Premaxillary tooth proportions: all approximately same size = 0, p)      1   0.250  1 --> 0
+                           50 (Mandibular canal exposure: entirely enclosed, opens through lines )      1   0.400  0 ==>
+                                                                                                                   {12}
+                           53 (Meckelian bone ossified in middle part of jaw: yes = 0, little or )      1   0.333  0 ==> 1
+                           112 (Radius length: longer than humerus = 0, equal to or shorter than )      1   0.333  1 --> 0
+                           120 (Number radials articulating on ulnare 0-2 radials = 0, greater th)      1   0.500  1 --> 0
+node_15 --> Panderichthys  73 (Dentary teeth: larger than maxillary teeth = 0, same size as maxil)      1   0.400  1 ==> 0
+node_14 --> Eusthenopteron 3 (Ectopterygoid reaches subtemporal fossa: no = 0, yes = 1)                 1   0.500  1 --> 0
+                           73 (Dentary teeth: larger than maxillary teeth = 0, same size as maxil)      1   0.400  1 ==> 0
+                           94 (Latissimus dorsi attachment of humerus: diffuse ridged area = 0, d)      1   0.500  0 --> 1
+node_14 --> Tinirau        31 (Ectopterygoid / palatine shagreen field: absent = 0, present = 1)        1   0.500  0 --> 1
+
