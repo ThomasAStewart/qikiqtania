@@ -2,7 +2,7 @@
 # Author: T.A.S.
 # Date: Jan 2022
 
-The folder entitled 'analyses_main_ms' contains all data and code to produce results presented in Figure 4, Fig S5 and Fig S6.
+The folder entitled 'NUFV137_resubmission' contains all data and code to produce results presented in Figure 4, Fig S5.
 
 The folders 'parsimony' and 'bayesian' contain executable nexus files, labeled runfiles, which can generate all of the other files in each folder. Running these requires installation of paup* and Mr Bayes. Versions numbers for these are provided in the manuscript text.
 
