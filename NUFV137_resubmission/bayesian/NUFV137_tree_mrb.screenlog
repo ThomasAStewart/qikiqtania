@@ -4577,11 +4577,4 @@
 
 
    Exiting mrbayes block
-   Could not find command ".2"
-   The error occurred when reading char. 5-6 on line 44
-      in the file 'bayesian_runfile.nex'
-
-   Returning execution to command line ...
-
-   Error in command "Execute"
 
