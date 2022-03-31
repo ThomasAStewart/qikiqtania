@@ -1,0 +1,239 @@
+
+P A U P *
+Version 4.0a (build 168) for macOS (built on Aug  2 2020 at 06:41:30)
+Thu Mar  3 12:02:20 2022
+
+
+Branch-and-bound search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 125 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        33 characters are constant (proportion = 0.264)
+        14 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 78
+    Gaps are treated as "missing"
+    Multistate taxa interpreted as uncertainty
+  Initial upper bound: unknown (compute heuristically)
+  Addition sequence: furthest
+  Initial 'Maxtrees' setting = 1000000
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Branch-and-bound search completed:
+  Score of best tree found = 151
+  Number of trees retained = 28
+  Time used = 0.03 sec (CPU time = 0.03 sec)
+
+OK to replace file "myStrictConsensustree.tre"? (Y/n)Y
+
+Strict consensus of 28 trees:
+
+                                                                                                                             /------------------------------- Acanthostega(1)
+                                                                                                                             +------------------------------- Elginerpeton(2)
+                                                                                                                             +------------------------------- Ichthyostega(5)
+                                                                                              /------------------------------+------------------------------- Parmastega(7)
+                                                                                              |                              +------------------------------- Ventastega(9)
+                                                              /-------------------------------+                              \------------------------------- Ymeria(10)
+                                                              |                               +-------------------------------------------------------------- Elpistostege(3)
+                               /------------------------------+                               +-------------------------------------------------------------- Tiktaalik(8)
+                               |                              |                               \-------------------------------------------------------------- Qikiqtania(11)
+/------------------------------+                              \---------------------------------------------------------------------------------------------- Panderichthys(6)
+|                              +----------------------------------------------------------------------------------------------------------------------------- Eusthenopteron(4)
+|                              \----------------------------------------------------------------------------------------------------------------------------- Tinirau(12)
+\------------------------------------------------------------------------------------------------------------------------------------------------------------ Megalichthys(13)
+
+Consensus tree(s) written to treefile:
+~/Documents/papers/submitted/NUFV137/phylo_methods_project/tom_stuff/runfile_and_output/NUFV137_2022_03_02/parsimony/myStrictConsensustree.tre
+
+28 trees saved to file "~/Documents/papers/submitted/NUFV137/phylo_methods_project/tom_stuff/runfile_and_output/NUFV137_2022_03_02/parsimony/early_tetrapod_phylo.trees"
+
+50% Majority-rule consensus of 28 trees
+
+                                                                                                                                      /---------------------- Acanthostega(1)
+                                                                                                               /----------64----------+---------------------- Ventastega(9)
+                                                                                                               |                      /---------------------- Ichthyostega(5)
+                                                                                         /---------100---------+----------64----------+---------------------- Ymeria(10)
+                                                                   /---------75----------+                     +--------------------------------------------- Elginerpeton(2)
+                                                                   |                     |                     \--------------------------------------------- Parmastega(7)
+                                             /---------100---------+                     \------------------------------------------------------------------- Elpistostege(3)
+                                             |                     +----------------------------------------------------------------------------------------- Tiktaalik(8)
+                      /---------100----------+                     \----------------------------------------------------------------------------------------- Qikiqtania(11)
+/---------------------+                      \--------------------------------------------------------------------------------------------------------------- Panderichthys(6)
+|                     +-------------------------------------------------------------------------------------------------------------------------------------- Eusthenopteron(4)
+|                     \-------------------------------------------------------------------------------------------------------------------------------------- Tinirau(12)
+\------------------------------------------------------------------------------------------------------------------------------------------------------------ Megalichthys(13)
+
+Bipartitions found in one or more trees and frequency of occurrence:
+
+         1  1
+1234567890123          Freq        %
+------------------------------------
+...*.......**            28  100.00%
+...*.*.....**            28  100.00%
+..**.*.*..***            28  100.00%
+...*.*.*..***            21   75.00%
+....*....*...            18   64.29%
+.*******.****            18   64.29%
+.*..*.*..*...            14   50.00%
+...........**            12   42.86%
+.*..*....*...            11   39.29%
+.*..*........            10   35.71%
+.*******..***            10   35.71%
+.********.***            10   35.71%
+...*.*.*...**             9   32.14%
+...*.*....***             9   32.14%
+...*.......*.             8   28.57%
+...*........*             8   28.57%
+..**.*.....**             7   25.00%
+..**.***..***             7   25.00%
+.*..*.*......             7   25.00%
+.*....*......             7   25.00%
+..**.*.*...**             6   21.43%
+.......*..*..             4   14.29%
+
+Consensus tree(s) written to treefile:
+~/Documents/papers/submitted/NUFV137/phylo_methods_project/tom_stuff/runfile_and_output/NUFV137_2022_03_02/parsimony/myMajRuleConsensustree.tre
+
+Strict consensus of 28 trees:
+
+                                                                                                                             /------------------------------- Acanthostega(1)
+                                                                                                                             +------------------------------- Elginerpeton(2)
+                                                                                                                             +------------------------------- Ichthyostega(5)
+                                                                                              /------------------------------+------------------------------- Parmastega(7)
+                                                                                              |                              +------------------------------- Ventastega(9)
+                                                              /-------------------------------+                              \------------------------------- Ymeria(10)
+                                                              |                               +-------------------------------------------------------------- Elpistostege(3)
+                               /------------------------------+                               +-------------------------------------------------------------- Tiktaalik(8)
+                               |                              |                               \-------------------------------------------------------------- Qikiqtania(11)
+/------------------------------+                              \---------------------------------------------------------------------------------------------- Panderichthys(6)
+|                              +----------------------------------------------------------------------------------------------------------------------------- Eusthenopteron(4)
+|                              \----------------------------------------------------------------------------------------------------------------------------- Tinirau(12)
+\------------------------------------------------------------------------------------------------------------------------------------------------------------ Megalichthys(13)
+
+Consensus tree(s) written to treefile:
+~/Documents/papers/submitted/NUFV137/phylo_methods_project/tom_stuff/runfile_and_output/NUFV137_2022_03_02/parsimony/myStrictConsensustree.tre
+
+Adams consensus of 28 trees:
+
+                                                                                                                                  /-------------------------- Acanthostega(1)
+                                                                                                        /-------------------------+-------------------------- Ventastega(9)
+                                                                                                        |                         /-------------------------- Elginerpeton(2)
+                                                                              /-------------------------+-------------------------+-------------------------- Ichthyostega(5)
+                                                                              |                         +---------------------------------------------------- Parmastega(7)
+                                                    /-------------------------+                         \---------------------------------------------------- Ymeria(10)
+                                                    |                         +------------------------------------------------------------------------------ Elpistostege(3)
+                          /-------------------------+                         +------------------------------------------------------------------------------ Tiktaalik(8)
+                          |                         |                         \------------------------------------------------------------------------------ Qikiqtania(11)
+/-------------------------+                         \-------------------------------------------------------------------------------------------------------- Panderichthys(6)
+|                         +---------------------------------------------------------------------------------------------------------------------------------- Eusthenopteron(4)
+|                         \---------------------------------------------------------------------------------------------------------------------------------- Tinirau(12)
+\------------------------------------------------------------------------------------------------------------------------------------------------------------ Megalichthys(13)
+
+Consensus tree(s) written to treefile:
+~/Documents/papers/submitted/NUFV137/phylo_methods_project/tom_stuff/runfile_and_output/NUFV137_2022_03_02/parsimony/myAdamsConsensustree.tre
+
+Bootstrap method with heuristic search:
+  Number of bootstrap replicates = 500
+  Starting seed = generated automatically
+  Number of characters resampled in each replicate = 125
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 125 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        33 characters are constant (proportion = 0.264)
+        14 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 78
+    Gaps are treated as "missing"
+    Multistate taxa interpreted as uncertainty
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 100
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+    No more than 1000 trees of score (length) greater than or equal to 1 will be saved in each replicate
+  Initial 'Maxtrees' setting = 1000000
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+  500 bootstrap replicates completed
+  Time used = 42.09 sec (CPU time = 41.69 sec)
+
+Trees for each replicate written to treefile:
+~/Documents/papers/submitted/NUFV137/phylo_methods_project/tom_stuff/runfile_and_output/NUFV137_2022_03_02/parsimony/NUFV137_phylogenetic_analysis_main_ms_bootstrap500.trees
+
+Bootstrap 50% majority-rule consensus tree
+   (plus other groups compatible with this tree)
+
+                                                                                                                                              /-------------- Ichthyostega(5)
+                                                                                                                                /-----39------+-------------- Ymeria(10)
+                                                                                                                 /------21------+---------------------------- Elginerpeton(2)
+                                                                                                   /-----28------+                            /-------------- Acanthostega(1)
+                                                                                     /-----74------+             \-------------39-------------+-------------- Ventastega(9)
+                                                                       /-----52------+             \--------------------------------------------------------- Parmastega(7)
+                                                         /-----33------+             \----------------------------------------------------------------------- Elpistostege(3)
+                                           /-----86------+             \------------------------------------------------------------------------------------- Tiktaalik(8)
+                            /------97------+             \--------------------------------------------------------------------------------------------------- Qikiqtania(11)
+              /-----39------+              \----------------------------------------------------------------------------------------------------------------- Panderichthys(6)
+/-------------+             \-------------------------------------------------------------------------------------------------------------------------------- Eusthenopteron(4)
+|             \---------------------------------------------------------------------------------------------------------------------------------------------- Tinirau(12)
+\------------------------------------------------------------------------------------------------------------------------------------------------------------ Megalichthys(13)
+
+Bipartitions found in one or more trees and frequency of occurrence (bootstrap support values):
+
+         1  1
+1234567890123          Freq        %
+------------------------------------
+...*.......**        482.69   96.54%
+...*.*.....**        428.35   85.67%
+..**.*.*..***        372.34   74.47%
+...*.*.*..***        261.46   52.29%
+....*....*...        195.60   39.12%
+...........**        194.47   38.89%
+.*******.****        192.78   38.56%
+...*.*....***        162.63   32.53%
+...*........*        155.91   31.18%
+.********.***        153.54   30.71%
+.*..*........        150.54   30.11%
+...*.......*.        142.62   28.52%
+.*******..***        140.91   28.18%
+..**.***..***        138.68   27.74%
+.***.*.*..***        134.76   26.95%
+...*.*.*...**        131.16   26.23%
+..**.*.....**        131.10   26.22%
+.*..*....*...        107.08   21.42%
+.***.***..***         99.47   19.89%
+.*.*.*.*..***         97.87   19.57%
+.......*..*..         96.39   19.28%
+..**.*.*...**         90.83   18.17%
+.*..*.*......         88.61   17.72%
+.*..*.*..*...         73.57   14.71%
+.*....*......         64.04   12.81%
+..**.*....***         63.04   12.61%
+...*......***         51.96   10.39%
+..**.****.***         40.09    8.02%
+.***.****.***         37.93    7.59%
+..*.......*..         36.30    7.26%
+.*****.*.****         33.07    6.61%
+..**.*.**.***         30.91    6.18%
+......*.*....         28.33    5.67%
+....*.*......         27.39    5.48%
+.***.***.****         26.86    5.37%
+
+97 groups at (relative) frequency less than 5% not shown
+
+OK to replace file "NUFV137_phylogenetic_analysis_main_ms_bootstrap500_con.tre"? (Y/n)Y
+
+1 tree saved to file
+"~/Documents/papers/submitted/NUFV137/phylo_methods_project/tom_stuff/runfile_and_output/NUFV137_2022_03_02/parsimony/NUFV137_phylogenetic_analysis_main_ms_bootstrap500_con.tre
+"
+
+Processing of input file "paup_runfile.nex" completed.

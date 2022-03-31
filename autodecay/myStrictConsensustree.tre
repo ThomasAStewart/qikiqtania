@@ -1,0 +1,6 @@
+#NEXUS
+[! Tree file created by AutoDecay (5.06) at Fri Mar 18 01:16:52 CDT 2022]
+[! Decay indices are indicated as internal node labels in the tree]
+Begin trees;
+	Tree Decay = ((((Acanthostega,Elginerpeton,Ichthyostega,Parmastega,Ventastega,Ymeria)'d 2',Elpistostege,Tiktaalik,Qikiqtania)'d 2',Panderichthys)'d 4',Eusthenopteron,Tinirau,Megalichthys);
+End;

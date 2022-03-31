@@ -1,0 +1,85 @@
+
+P A U P *
+Version 4.0a (build 168) for macOS (built on Aug  2 2020 at 06:41:30)
+Fri Mar 18 01:12:53 2022
+
+
+AutoDecay (5.06) command file
+Input tree: tree Strict =  ((((Acanthostega,Elginerpeton,Ichthyostega,Parmastega,Ventastega,Ymeria),
+Elpistostege,Tiktaalik,Qikiqtania),Panderichthys),Eusthenopteron,Tinirau,Megalichthys)
+From file: myStrictConsensustree.tre
+---> Constraint tree # 1
+
+Branch-and-bound search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 125 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        33 characters are constant (proportion = 0.264)
+        14 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 78
+    Gaps are treated as "missing"
+    Multistate taxa interpreted as uncertainty
+  Initial upper bound: unknown (compute heuristically)
+  Addition sequence: furthest
+  Initial 'Maxtrees' setting = 100000
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  Keeping only trees NOT compatible with constraint-tree "AD1"
+  Trees are unrooted
+
+Branch-and-bound search completed:
+  Score of best tree found = 155
+  Number of trees retained = 13
+  Time used = 0.14 sec (CPU time = 0.13 sec)
+---> Constraint tree # 2
+
+Branch-and-bound search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 125 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        33 characters are constant (proportion = 0.264)
+        14 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 78
+    Gaps are treated as "missing"
+    Multistate taxa interpreted as uncertainty
+  Initial upper bound: unknown (compute heuristically)
+  Addition sequence: furthest
+  Initial 'Maxtrees' setting = 100000
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  Keeping only trees NOT compatible with constraint-tree "AD2"
+  Trees are unrooted
+
+Branch-and-bound search completed:
+  Score of best tree found = 153
+  Number of trees retained = 15
+  Time used = 0.05 sec (CPU time = 0.05 sec)
+---> Constraint tree # 3
+
+Branch-and-bound search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 125 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        33 characters are constant (proportion = 0.264)
+        14 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 78
+    Gaps are treated as "missing"
+    Multistate taxa interpreted as uncertainty
+  Initial upper bound: unknown (compute heuristically)
+  Addition sequence: furthest
+  Initial 'Maxtrees' setting = 100000
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  Keeping only trees NOT compatible with constraint-tree "AD3"
+  Trees are unrooted
+
+Branch-and-bound search completed:
+  Score of best tree found = 153
+  Number of trees retained = 34
+  Time used = 0.06 sec (CPU time = 0.05 sec)

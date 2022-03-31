@@ -1,0 +1,28 @@
+#NEXUS
+BEGIN PAUP;
+log file='myStrictConsensustree.log' start replace;
+set WarnRedef=no;
+[!AutoDecay (5.06) command file]
+[!Input tree: tree Strict =  ((((Acanthostega,Elginerpeton,Ichthyostega,Parmastega,Ventastega,Ymeria),Elpistostege,Tiktaalik,Qikiqtania),Panderichthys),Eusthenopteron,Tinirau,Megalichthys)]
+[!From file: myStrictConsensustree.tre]
+set autoclose;
+[!---> Constraint tree # 1]
+Constraints AD1 = ((Acanthostega,Elginerpeton,Ichthyostega,Parmastega,Ventastega,Ymeria,Elpistostege,Tiktaalik,Qikiqtania,Panderichthys));
+bandb constraints=AD1 enforce converse ;
+[!---> Constraint tree # 2]
+Constraints AD2 = ((Acanthostega,Elginerpeton,Ichthyostega,Parmastega,Ventastega,Ymeria,Elpistostege,Tiktaalik,Qikiqtania));
+bandb constraints=AD2 enforce converse ;
+[!---> Constraint tree # 3]
+Constraints AD3 = ((Acanthostega,Elginerpeton,Ichthyostega,Parmastega,Ventastega,Ymeria));
+bandb constraints=AD3 enforce converse ;
+log stop;
+END;
+
+Begin AutoDecay;
+0 
+((((Acanthostega,Elginerpeton,Ichthyostega,Parmastega,Ventastega,Ymeria),Elpistostege,Tiktaalik,Qikiqtania),Panderichthys),Eusthenopteron,Tinirau,Megalichthys)
+((Acanthostega,Elginerpeton,Ichthyostega,Parmastega,Ventastega,Ymeria,Elpistostege,Tiktaalik,Qikiqtania,Panderichthys,Eusthenopteron,Tinirau,Megalichthys))
+((Acanthostega,Elginerpeton,Ichthyostega,Parmastega,Ventastega,Ymeria,Elpistostege,Tiktaalik,Qikiqtania,Panderichthys))
+((Acanthostega,Elginerpeton,Ichthyostega,Parmastega,Ventastega,Ymeria,Elpistostege,Tiktaalik,Qikiqtania))
+((Acanthostega,Elginerpeton,Ichthyostega,Parmastega,Ventastega,Ymeria))
+end;
