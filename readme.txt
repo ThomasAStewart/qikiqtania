@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/401977056.svg)](https://zenodo.org/badge/latestdoi/401977056)
+
 # Summary of the files contained in this folder
 # Author: T.A.S.
 # Date: March 2022
